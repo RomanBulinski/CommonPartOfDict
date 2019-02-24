@@ -48,20 +48,18 @@ public class Main {
         }
         System.out.println("ilosc wspolnych slow : "+commonwords.size());
 
-//        for(String word :commonwords ){
-//            System.out.println(word);
-//        }
+        for(String word :commonwords ){
+            System.out.println(word);
+        }
 
 
+        Integer jeleniKey = "jeleni".hashCode();
+        System.out.println(  "jeleni".hashCode() );
 
-//        Integer jeleniKey = "jeleni".hashCode();
-//        System.out.println(  "jeleni".hashCode() );
-//
-//        if(  keyenglishWord.contains( jeleniKey )){
-//            System.out.println( "jest takie slowo wowlsoniku angilskim");
-//        }
-//
-//
+        if(  keyenglishWord.contains( jeleniKey )){
+            System.out.println( "jest takie slowo wowlsoniku angilskim");
+        }
+
         Integer disrespektfuldKey = "disrespektfuld".hashCode();
 
         if(  keypolishhwords.contains( disrespektfuldKey )){
